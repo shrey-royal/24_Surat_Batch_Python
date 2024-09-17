@@ -40,7 +40,7 @@
 
 # syntax: Sequence[start(inclusive):end(exclusive):step-1]
 
-word = "Artificial_Intelligence"
+# word = "Artificial_Intelligence"
 
 # Positive Slicing
 
@@ -68,9 +68,36 @@ print(new_word)
 # print(word[::4])    # even
 # print(word[2::4])    # odd
 
-naam = "Naimishji"
+# naam = "Naimishji"
 # Niihi
 # amsj
 # Namihj
 # aiisji
 # isi
+
+# Negative Slicing (reverse reading of any iterable data)
+
+str = "Royal Technosoft Pvt. Ltd."
+# print(str[-1:])   # .
+# print(str[:-1])     # everything else except the last char
+
+str = "Hello, World!"
+# print(str[len(str)-3:])
+# print(str[-3:])
+# print(str[-10:-3])
+# print(str[::-1])    # when you put step -1, the string will be reversed
+# print(str[-10:-13:-1])
+# print(str[-10:-13:-1])
+# print(str[-4:-1:1])
+# print(str[-1:-4:-1])
+# print(str[:0:-1])
+# print(str[1:-5:1])
+
+""" # smol praktis
+my_string = "The quick brown fox jumps over the lazy dog"
+> reverse a substring from idnex -10 to -30 with a step of -1
+> Extract "dog lazy the over" form the reversed string
+> Extract every second character in reverse from the original string
+
+"""
+# my_string = "The quick brown fox jumps over the lazy dog"
