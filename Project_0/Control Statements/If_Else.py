@@ -67,11 +67,11 @@ age = int(input("Enter age: "))
 # else:
 #     print("You are Kid.")
 
-if age > 0 and age < 18:
+if 0 < age < 18:
     print("You are KID")
-elif age >= 18 and age < 60:
+elif 18 <= age < 60:
     print("You are ADULT")
-elif age >= 60 and age < 100:
+elif 60 <= age < 100:
     print("You are Senior Citizen")
 else:
     print("Invalid age!")
