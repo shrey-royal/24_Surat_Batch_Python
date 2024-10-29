@@ -1,0 +1,91 @@
+-> Problem 1: Inventory Value Calculation by Category
+
+Problem Statement:
+You are managing inventory for a retail store and need to track the total value of products across different categories. Each product in the inventory has a fixed structure: SKU (Stock Keeping Unit), name, category, price, and quantity in stock. This information should be stored as a tuple, and all products should be maintained in a list.
+
+Your task is to write a Python program that calculates the total inventory value per category and displays it in a readable format. The inventory structure should prevent changes to individual product information while allowing you to add or remove products from the collection.
+
+Sample Data: List of Products in the Inventory
+products = [
+    ('SKU001', 'Laptop', 'Electronics', 60000.0, 5),      # Price per unit: ₹60,000
+    ('SKU002', 'Headphones', 'Electronics', 2000.0, 10),  # Price per unit: ₹2,000
+    ('SKU003', 'Coffee Maker', 'Appliances', 3000.0, 7),  # Price per unit: ₹3,000
+    ('SKU004', 'Blender', 'Appliances', 1500.0, 15),      # Price per unit: ₹1,500
+    ('SKU005', 'Notebook', 'Stationery', 50.0, 100),      # Price per unit: ₹50
+    ('SKU006', 'Pen', 'Stationery', 10.0, 500)            # Price per unit: ₹10
+]
+
+Output: The program should display the total value of all products in each category.
+Expected Output (for reference):
+    Total inventory value per category:
+    Electronics: ₹310,000
+    Appliances: ₹36,000
+    Stationery: ₹6,500
+
+
+
+---
+
+-> Problem 2: Employee Roster Management
+
+Problem Statement:
+You are developing a program to manage an employee roster for a company with different departments. Each employee has a fixed set of information: ID, name, department, job title, and salary. This information should be represented as a tuple, and all employee records should be stored in a list.
+
+Write a Python program that:
+1. Calculates the average salary for each department.
+2. Displays the department names along with their average salary in a readable format.
+
+The program should use tuples to keep each employee's information immutable, while allowing flexible management of the employee list. The data structure should support adding or removing employees as needed.
+
+Sample Data: List of Employees in the Company
+employees = [
+    (101, 'Ananya Sharma', 'Engineering', 'Software Engineer', 60000),    # Salary: ₹60,000
+    (102, 'Raj Malhotra', 'Engineering', 'Data Scientist', 80000),        # Salary: ₹80,000
+    (103, 'Sima Das', 'HR', 'HR Manager', 55000),                         # Salary: ₹55,000
+    (104, 'Priya Singh', 'Sales', 'Sales Manager', 50000),                # Salary: ₹50,000
+    (105, 'Anil Kumar', 'Sales', 'Sales Executive', 30000),               # Salary: ₹30,000
+    (106, 'Neha Verma', 'Marketing', 'Marketing Specialist', 45000)       # Salary: ₹45,000
+]
+
+Output: The program should display each department's name and average salary.
+Expected Output (for reference):
+    Average salary per department:
+    Engineering: ₹70,000
+    HR: ₹55,000
+    Sales: ₹40,000
+    Marketing: ₹45,000
+
+
+
+---
+
+-> Problem 3: Course Enrollment Statistics
+
+Problem Statement:
+A university needs a program to manage its course enrollment data across different departments. Each course has a fixed set of information: course code, course title, department, number of enrolled students, and credits. Store each course as a tuple in a list of courses.
+
+Write a Python program that:
+1. Calculates the total number of students enrolled in each department.
+2. Displays the department names with their respective total enrollment counts.
+
+The program should use tuples to prevent changes to individual course details but allow dynamic changes in the list of courses as courses open or close.
+
+Sample Data: List of Courses in the University
+courses = [
+    ('CS101', 'Introduction to Computer Science', 'Computer Science', 120, 3),   # Enrolled: 120 students
+    ('EE201', 'Circuit Analysis', 'Electrical Engineering', 80, 4),             # Enrolled: 80 students
+    ('ME301', 'Thermodynamics', 'Mechanical Engineering', 60, 3),               # Enrolled: 60 students
+    ('CE101', 'Structural Analysis', 'Civil Engineering', 40, 3),               # Enrolled: 40 students
+    ('CS202', 'Data Structures', 'Computer Science', 150, 4),                   # Enrolled: 150 students
+    ('ME202', 'Fluid Mechanics', 'Mechanical Engineering', 70, 3),              # Enrolled: 70 students
+    ('EE301', 'Power Systems', 'Electrical Engineering', 90, 3)                 # Enrolled: 90 students
+]
+
+Output: The program should display each department's name along with the total number of students enrolled.
+Expected Output (for reference):
+    Total students enrolled per department:
+    Computer Science: 270
+    Electrical Engineering: 170
+    Mechanical Engineering: 130
+    Civil Engineering: 40
+
