@@ -50,3 +50,26 @@ new_set = {23, 45}
 # print({1, 2, 3}.union({4, 5, 6}))
 # del mySet, dummy_set
 print(mySet, dummy_set, sep="\n")
+
+
+"""
+Consider a scenario involving a business with a loyalty program where customers can earn rewards based on certain criteria. 
+
+The program includes:
+- Active Customers: Customers currently using the loyalty program.
+- Premium Members: Customers who have paid for a premium membership.
+- High Spenders: Customers who spend over a certain amount every month.
+- Discount Eligible Customers: Customers who can receive discounts based on their spending patterns.
+
+In this scenario, let's say we want to:
+1. Find customers who are both active and premium members.
+2. Identify high spenders who are not premium members (to encourage them to join the premium membership).
+3. Find customers eligible for discounts who are also high spenders.
+4. Get the list of all customers in any of these categories without duplicates.
+
+# Defining sets for each category
+active_customers = {"Alice", "Bob", "Carol", "David", "Eve"}
+premium_members = {"Bob", "Carol", "Frank", "Grace"}
+high_spenders = {"Alice", "David", "Eve", "Frank"}
+discount_eligible = {"Bob", "Eve", "Grace", "Henry"}
+"""
